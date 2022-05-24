@@ -1,5 +1,5 @@
 function alphabetPosition(text) {
-  if(text.match(/[a-zA-Z]/g)) {
+  if(text.match(/[a-z]/gi)) {
     return text
               .toLowerCase()
               .match(/[a-z]/g)
